@@ -1,7 +1,14 @@
 aid: genm
 name: GenM
-description: GenM is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: GenM (now operating as Acadium) is a digital marketing career and apprenticeship
+  platform that connects emerging marketers with mentors and businesses. The platform offers
+  free digital marketing courses (SEO, social media, email, and content marketing), hands-on
+  MicroTasks for portfolio building, three-month remote apprenticeships, and Acadium Plus, an
+  eight-week program that leads to full-time hiring. Businesses use Acadium to crowdsource
+  marketing work and mentor emerging talent while growing their operations. GenM was surfaced as
+  a portfolio company of 500 Global and added to the API Evangelist network for enrichment; the
+  company operates a consumer/business web application at app.acadium.com and publishes no public
+  developer API surface.
 url: https://raw.githubusercontent.com/api-evangelist/genm/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,11 +16,30 @@ x-backed-by:
 - 500-global
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
+image: https://www.acadium.com/wp-content/uploads/2022/08/cropped-Square-Logo-270x270.png
 tags:
 - Company
+- Digital Marketing
+- Education
+- Apprenticeships
+- Marketing Talent
+- Online Courses
+- Career Platform
+- Mentorship
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +49,24 @@ maintainers:
 common:
 - type: Website
   url: https://acadium.com
+- type: SignUp
+  url: https://app.acadium.com/signup
+- type: Login
+  url: https://app.acadium.com/login
+- type: Pricing
+  url: https://www.acadium.com/pricing
+- type: TermsOfService
+  url: https://www.acadium.com/terms
+- type: PrivacyPolicy
+  url: https://www.acadium.com/privacy
+- type: Support
+  url: https://help.acadium.com
+- type: Blog
+  url: https://www.acadium.com/blog
+- type: DomainSecurity
+  url: security/genm-domain-security.yml
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
